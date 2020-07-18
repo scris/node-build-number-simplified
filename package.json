@@ -1,7 +1,7 @@
 {
   "name": "node-build-number-simplified",
-  "version": "1.0.2",
-  "description": "A node extension for capturing build number, timestamp and other metadata into the npm package.json, based on node-build-number",
+  "version": "2.0.0",
+  "description": "This is based on node-build-number.",
   "main": "src/buildnumber.js",
   "bin": {
     "nbn": "src/buildnumber.js"
@@ -18,9 +18,8 @@
   },
   "author": "Paul Wardrip <pwardrip@gmail.com> and Tianze Ds Qiu <slaaker@126.com>",
   "license": "ISC",
-  "homepage": "https://github.com/paulwardrip/node-build-number",
+  "homepage": "https://github.com/scris/node-build-number-simplified",
   "dependencies": {
-    "commander": "^2.18.0",
-    "deasync": "^0.1.20"
+    "commander": "^2.18.0"
   }
 }
