@@ -4,7 +4,7 @@
   "description": "This is based on node-build-number.",
   "main": "src/buildnumber.js",
   "bin": {
-    "nbn": "src/buildnumber.js"
+    "nbns": "src/buildnumber.js"
   },
   "repository": "git+https://github.com/scris/node-build-number-simplified.git",
   "keywords": [
@@ -14,12 +14,16 @@
     "npm"
   ],
   "scripts": {
-    "self-serve": "npm link --force && nbn"
+    "self-serve": "npm link --force && nbns"
   },
   "author": "Paul Wardrip <pwardrip@gmail.com> and Tianze Ds Qiu <slaaker@126.com>",
   "license": "ISC",
   "homepage": "https://github.com/scris/node-build-number-simplified",
   "dependencies": {
     "commander": "^2.18.0"
+  },
+  "build": {
+    "number": 4,
+    "timestamp": "7/19/2020, 12:47:24 PM"
   }
 }
