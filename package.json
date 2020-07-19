@@ -27,6 +27,6 @@
     "timestamp": "7/19/2020, 2:01:15 PM"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "http://registry.npmjs.org"
   }
 }
