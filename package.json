@@ -1,6 +1,6 @@
 {
   "name": "node-build-number-simplified",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "This is based on node-build-number.",
   "main": "src/buildnumber.js",
   "bin": {
@@ -23,7 +23,10 @@
     "commander": "^2.18.0"
   },
   "build": {
-    "number": 4,
-    "timestamp": "7/19/2020, 12:47:24 PM"
+    "number": 7,
+    "timestamp": "7/19/2020, 2:01:15 PM"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
